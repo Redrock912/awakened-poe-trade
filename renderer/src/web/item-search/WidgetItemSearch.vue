@@ -145,7 +145,7 @@ function findItems (opts: {
     const lcName = itemName.toLowerCase()
     if (
       lcSearch.every(part => lcName.includes(part)) &&
-      ((AppConfig().language === 'cmn-Hant') || lcName.split(/\s+/).some(part => part.startsWith(lcLongestWord)))
+      ((AppConfig().language === 'cmn-Hant' || AppConfig().language === 'ko') || lcName.split(/\s+/).some(part => part.startsWith(lcLongestWord)))
     ) {
       const match = ITEM_BY_TRANSLATED(opts.namespace, itemName)
       out.push(...match ?? [])

@@ -138,5 +138,5 @@ const TRADE_BULK_WHISPER = {
   'en': /^Hi, I'd like to buy your (?<item>.+) for my (?<price>.+) in (?<league>.+)\.(?<message>.+)?$/,
   'ru': /^Здравствуйте, хочу купить у вас (?<item>.+) за (?<price>.+) в лиге (?<league>.+)\.(?<message>.+)?$/,
   'cmn-Hant': /^你好，我想用 (?<price>.+) 購買 (?<item>.+) in (?<league>.+)\.(?<message>.+)?$/,
-  'ko': /^_FIX_ME_$/
+  'ko': /^안녕하세요, (?<league>.+)에서 (?<price>.+)(?:\(으\)로|로)? (?<item>.+)(?:\(을\)를|를|을)? 구매하고 싶습니다\.(?<message>.+)?$/
 }

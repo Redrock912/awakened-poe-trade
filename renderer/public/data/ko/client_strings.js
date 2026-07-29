@@ -56,11 +56,11 @@ export default {
   METAMORPH_HELP: '테인의 연구실에서 이 아이템을 다른 샘플과 조합하십시오.',
   BEAST_HELP: '우클릭으로 이것을 야수 도감에 추가하십시오.',
   VOIDSTONE_HELP: '아틀라스에 이 아이템을 장착하여 지도를 강화하십시오.',
-  METAMORPH_BRAIN: /^Мозг: .*$/,
-  METAMORPH_EYE: /^Глаз: .*$/,
-  METAMORPH_LUNG: /^Лёгкое: .*$/,
-  METAMORPH_HEART: /^Сердце: .*$/,
-  METAMORPH_LIVER: /^Печень: .*$/,
+  METAMORPH_BRAIN: /^뇌: .*$/,
+  METAMORPH_EYE: /^눈: .*$/,
+  METAMORPH_LUNG: /^폐: .*$/,
+  METAMORPH_HEART: /^심장: .*$/,
+  METAMORPH_LIVER: /^간: .*$/,
   CANNOT_USE_ITEM: '아이템 착용 불가. 아이템 효과 미적용',
   QUALITY_ANOMALOUS: /^기묘한 (.*)$/,
   QUALITY_DIVERGENT: /^상이한 (.*)$/,
@@ -131,5 +131,5 @@ export default {
   CHAT_GUILD: /^&(?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
   CHAT_WHISPER_TO: /^@발신 (?<char_name>.+?): (?<body>.+)$/,
   CHAT_WHISPER_FROM: /^@수신 (?:<(?<guild_tag>.+?)> )?(?<char_name>.+?): (?<body>.+)$/,
-  CHAT_WEBTRADE_GEM: /^уровень (?<gem_lvl>\d+) (?<gem_qual>\d+)% (?<gem_name>.+)$/
+  CHAT_WEBTRADE_GEM: /^(?:레벨 )?(?<gem_lvl>\d+)(?:레벨)? (?<gem_qual>\d+)% (?<gem_name>.+)$/
 }
