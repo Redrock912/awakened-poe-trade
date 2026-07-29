@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SnosMe/awakened-poe-trade.git"
+    "url": "https://github.com/Redrock912/awakened-poe-trade.git"
   },
   "main": "dist/main.js",
   "dependencies": {
