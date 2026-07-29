@@ -55,6 +55,12 @@ jobs:
     - name: Hash
       if: ${{ startsWith(matrix.os, 'windows') }}
       run: type .\main\dist\latest.yml
+    - name: Upload Windows Executables
+      if: ${{ startsWith(matrix.os, 'windows') }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: awakened-poe-trade-windows
+        path: ./main/dist/*.exe
     - name: Hash
       if: ${{ startsWith(matrix.os, 'ubuntu') }}
       run: cat ./main/dist/latest-linux.yml
